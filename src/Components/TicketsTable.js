@@ -35,7 +35,7 @@ function TicketsTable({ tickets }) {
           ))}
         </tbody>
       </Table>
-      ${state.total}
+      TOTAL: ${state.total}
     </>
   );
 }
